@@ -157,3 +157,6 @@ git remote   查看关联的远程仓库的名称
 git remote add url   添加一个远程仓库
 git remote show [remote] 显示某个远程仓库的信息
 ```
+
+git config --global --unset http.proxy 
+git config --global --unset https.proxy
